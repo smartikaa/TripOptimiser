@@ -1,0 +1,6 @@
+C:\Users\lenovo\source\repos\TripOptimiser\TripOptimiser\Debug\TripOptimiser.vcxproj.AssemblyReference.cache
+C:\Users\lenovo\source\repos\TripOptimiser\TripOptimiser\Debug\TripOptimiser.MyForm.resources
+C:\Users\lenovo\source\repos\TripOptimiser\TripOptimiser\Debug\TripOptimiser.vcxproj.GenerateResource.cache
+C:\Users\lenovo\source\repos\TripOptimiser\TripOptimiser\Debug\TripOptimiser.Login.resources
+C:\Users\lenovo\source\repos\TripOptimiser\TripOptimiser\Debug\TripOptimiser.Src.resources
+C:\Users\lenovo\source\repos\TripOptimiser\TripOptimiser\Debug\TripOptimiser.Display.resources
