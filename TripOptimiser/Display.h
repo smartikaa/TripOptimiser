@@ -92,7 +92,7 @@ namespace TripOptimiser {
 			this->label1->AutoSize = true;
 			this->label1->Font = (gcnew System::Drawing::Font(L"Arial", 16, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label1->Location = System::Drawing::Point(563, 136);
+			this->label1->Location = System::Drawing::Point(555, 104);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(110, 37);
 			this->label1->TabIndex = 0;
@@ -102,7 +102,7 @@ namespace TripOptimiser {
 			// 
 			this->label2->AutoSize = true;
 			this->label2->Font = (gcnew System::Drawing::Font(L"Arial", 16, System::Drawing::FontStyle::Bold));
-			this->label2->Location = System::Drawing::Point(563, 195);
+			this->label2->Location = System::Drawing::Point(555, 163);
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(110, 37);
 			this->label2->TabIndex = 1;
@@ -112,7 +112,7 @@ namespace TripOptimiser {
 			// 
 			this->label3->AutoSize = true;
 			this->label3->Font = (gcnew System::Drawing::Font(L"Arial", 16, System::Drawing::FontStyle::Bold));
-			this->label3->Location = System::Drawing::Point(563, 249);
+			this->label3->Location = System::Drawing::Point(555, 217);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(110, 37);
 			this->label3->TabIndex = 2;
@@ -122,7 +122,7 @@ namespace TripOptimiser {
 			// 
 			this->label4->AutoSize = true;
 			this->label4->Font = (gcnew System::Drawing::Font(L"Arial", 16, System::Drawing::FontStyle::Bold));
-			this->label4->Location = System::Drawing::Point(52, 136);
+			this->label4->Location = System::Drawing::Point(44, 104);
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(113, 37);
 			this->label4->TabIndex = 3;
@@ -132,7 +132,7 @@ namespace TripOptimiser {
 			// 
 			this->label5->AutoSize = true;
 			this->label5->Font = (gcnew System::Drawing::Font(L"Arial", 16, System::Drawing::FontStyle::Bold));
-			this->label5->Location = System::Drawing::Point(52, 195);
+			this->label5->Location = System::Drawing::Point(44, 163);
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(87, 37);
 			this->label5->TabIndex = 4;
@@ -142,7 +142,7 @@ namespace TripOptimiser {
 			// 
 			this->label6->AutoSize = true;
 			this->label6->Font = (gcnew System::Drawing::Font(L"Arial", 16, System::Drawing::FontStyle::Bold));
-			this->label6->Location = System::Drawing::Point(52, 249);
+			this->label6->Location = System::Drawing::Point(44, 217);
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(225, 37);
 			this->label6->TabIndex = 5;
@@ -150,22 +150,21 @@ namespace TripOptimiser {
 			// 
 			// label7
 			// 
-			this->label7->AutoSize = true;
-			this->label7->BackColor = System::Drawing::Color::RosyBrown;
+			this->label7->BackColor = System::Drawing::Color::RoyalBlue;
 			this->label7->Font = (gcnew System::Drawing::Font(L"Arial Rounded MT Bold", 20, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label7->ForeColor = System::Drawing::Color::DarkRed;
-			this->label7->Location = System::Drawing::Point(51, 30);
+			this->label7->ForeColor = System::Drawing::Color::White;
+			this->label7->Location = System::Drawing::Point(1, 30);
 			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(336, 46);
+			this->label7->Size = System::Drawing::Size(909, 46);
 			this->label7->TabIndex = 6;
-			this->label7->Text = L"Optimal solution";
+			this->label7->Text = L"    Overview ";
 			// 
 			// label8
 			// 
 			this->label8->AutoSize = true;
 			this->label8->Font = (gcnew System::Drawing::Font(L"Arial", 16, System::Drawing::FontStyle::Bold));
-			this->label8->Location = System::Drawing::Point(52, 316);
+			this->label8->Location = System::Drawing::Point(44, 284);
 			this->label8->Name = L"label8";
 			this->label8->Size = System::Drawing::Size(407, 37);
 			this->label8->TabIndex = 7;
@@ -175,7 +174,7 @@ namespace TripOptimiser {
 			// 
 			this->label9->AutoSize = true;
 			this->label9->Font = (gcnew System::Drawing::Font(L"Arial", 16, System::Drawing::FontStyle::Bold));
-			this->label9->Location = System::Drawing::Point(563, 316);
+			this->label9->Location = System::Drawing::Point(555, 284);
 			this->label9->Name = L"label9";
 			this->label9->Size = System::Drawing::Size(110, 37);
 			this->label9->TabIndex = 8;
@@ -184,7 +183,7 @@ namespace TripOptimiser {
 			// label10
 			// 
 			this->label10->Font = (gcnew System::Drawing::Font(L"Arial", 16, System::Drawing::FontStyle::Bold));
-			this->label10->Location = System::Drawing::Point(52, 396);
+			this->label10->Location = System::Drawing::Point(44, 364);
 			this->label10->Name = L"label10";
 			this->label10->Size = System::Drawing::Size(632, 136);
 			this->label10->TabIndex = 9;
@@ -193,16 +192,18 @@ namespace TripOptimiser {
 			// label11
 			// 
 			this->label11->Font = (gcnew System::Drawing::Font(L"Arial", 16, System::Drawing::FontStyle::Bold));
-			this->label11->Location = System::Drawing::Point(52, 564);
+			this->label11->Location = System::Drawing::Point(44, 500);
 			this->label11->Name = L"label11";
 			this->label11->Size = System::Drawing::Size(632, 136);
 			this->label11->TabIndex = 10;
 			this->label11->Text = L"label11";
+			this->label11->Click += gcnew System::EventHandler(this, &Display::label11_Click);
 			// 
 			// Display
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(9, 20);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->BackColor = System::Drawing::SystemColors::MenuHighlight;
 			this->ClientSize = System::Drawing::Size(911, 863);
 			this->Controls->Add(this->label11);
 			this->Controls->Add(this->label10);
@@ -226,5 +227,7 @@ namespace TripOptimiser {
 #pragma endregion
 	private: System::Void Display_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
+private: System::Void label11_Click(System::Object^ sender, System::EventArgs^ e) {
+}
 };
 }

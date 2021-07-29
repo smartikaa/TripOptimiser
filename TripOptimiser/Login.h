@@ -73,11 +73,13 @@ namespace TripOptimiser {
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Arial Rounded MT Bold", 16, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label1->BackColor = System::Drawing::SystemColors::HotTrack;
+			this->label1->Font = (gcnew System::Drawing::Font(L"Arial Rounded MT Bold", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label1->Location = System::Drawing::Point(12, 22);
+			this->label1->ForeColor = System::Drawing::SystemColors::ControlLightLight;
+			this->label1->Location = System::Drawing::Point(22, 32);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(364, 37);
+			this->label1->Size = System::Drawing::Size(412, 42);
 			this->label1->TabIndex = 0;
 			this->label1->Text = L"ENTER INFORMATION";
 			// 
@@ -116,6 +118,7 @@ namespace TripOptimiser {
 			// 
 			// textBox1
 			// 
+			this->textBox1->BackColor = System::Drawing::SystemColors::MenuBar;
 			this->textBox1->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->textBox1->Location = System::Drawing::Point(371, 134);
@@ -125,6 +128,7 @@ namespace TripOptimiser {
 			// 
 			// textBox2
 			// 
+			this->textBox2->BackColor = System::Drawing::SystemColors::MenuBar;
 			this->textBox2->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->textBox2->Location = System::Drawing::Point(371, 230);
@@ -134,6 +138,7 @@ namespace TripOptimiser {
 			// 
 			// textBox3
 			// 
+			this->textBox3->BackColor = System::Drawing::SystemColors::MenuBar;
 			this->textBox3->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->textBox3->Location = System::Drawing::Point(371, 319);
@@ -159,6 +164,7 @@ namespace TripOptimiser {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(9, 20);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->BackColor = System::Drawing::SystemColors::MenuHighlight;
 			this->ClientSize = System::Drawing::Size(919, 576);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->textBox3);

@@ -123,6 +123,7 @@ namespace TripOptimiser {
 			// 
 			// comboBox1
 			// 
+			this->comboBox1->BackColor = System::Drawing::SystemColors::ActiveCaption;
 			this->comboBox1->DropDownStyle = System::Windows::Forms::ComboBoxStyle::DropDownList;
 			this->comboBox1->Font = (gcnew System::Drawing::Font(L"Arial", 14));
 			this->comboBox1->FormattingEnabled = true;
@@ -156,6 +157,7 @@ namespace TripOptimiser {
 			// 
 			// comboBox2
 			// 
+			this->comboBox2->BackColor = System::Drawing::SystemColors::ActiveCaption;
 			this->comboBox2->DropDownStyle = System::Windows::Forms::ComboBoxStyle::DropDownList;
 			this->comboBox2->Font = (gcnew System::Drawing::Font(L"Arial", 14));
 			this->comboBox2->FormattingEnabled = true;
@@ -184,13 +186,14 @@ namespace TripOptimiser {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(518, 66);
 			this->label3->TabIndex = 5;
-			this->label3->Text = L"Enter weight and value of your items:\r\n (if less items than 5 , leave blank)";
+			this->label3->Text = L"Enter weight and value of your items:\r\n (max wt = 15 Kgs)";
 			// 
 			// label4
 			// 
 			this->label4->AutoSize = true;
-			this->label4->BackColor = System::Drawing::SystemColors::ActiveCaption;
+			this->label4->BackColor = System::Drawing::SystemColors::HotTrack;
 			this->label4->Font = (gcnew System::Drawing::Font(L"Arial", 14, System::Drawing::FontStyle::Bold));
+			this->label4->ForeColor = System::Drawing::SystemColors::ControlLightLight;
 			this->label4->Location = System::Drawing::Point(54, 421);
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(169, 33);
@@ -200,8 +203,9 @@ namespace TripOptimiser {
 			// label5
 			// 
 			this->label5->AutoSize = true;
-			this->label5->BackColor = System::Drawing::SystemColors::ActiveCaption;
+			this->label5->BackColor = System::Drawing::SystemColors::HotTrack;
 			this->label5->Font = (gcnew System::Drawing::Font(L"Arial", 14, System::Drawing::FontStyle::Bold));
+			this->label5->ForeColor = System::Drawing::SystemColors::ControlLightLight;
 			this->label5->Location = System::Drawing::Point(51, 528);
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(172, 33);
@@ -210,86 +214,96 @@ namespace TripOptimiser {
 			// 
 			// textBox1
 			// 
+			this->textBox1->BackColor = System::Drawing::Color::LightCyan;
 			this->textBox1->Font = (gcnew System::Drawing::Font(L"Arial Narrow", 14, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->textBox1->Location = System::Drawing::Point(335, 415);
+			this->textBox1->Location = System::Drawing::Point(338, 415);
 			this->textBox1->Name = L"textBox1";
 			this->textBox1->Size = System::Drawing::Size(100, 40);
 			this->textBox1->TabIndex = 8;
 			// 
 			// textBox2
 			// 
+			this->textBox2->BackColor = System::Drawing::Color::LightCyan;
 			this->textBox2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14, System::Drawing::FontStyle::Bold));
-			this->textBox2->Location = System::Drawing::Point(478, 414);
+			this->textBox2->Location = System::Drawing::Point(481, 414);
 			this->textBox2->Name = L"textBox2";
 			this->textBox2->Size = System::Drawing::Size(100, 39);
 			this->textBox2->TabIndex = 9;
 			// 
 			// textBox3
 			// 
+			this->textBox3->BackColor = System::Drawing::Color::LightCyan;
 			this->textBox3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14, System::Drawing::FontStyle::Bold));
-			this->textBox3->Location = System::Drawing::Point(612, 415);
+			this->textBox3->Location = System::Drawing::Point(615, 415);
 			this->textBox3->Name = L"textBox3";
 			this->textBox3->Size = System::Drawing::Size(100, 39);
 			this->textBox3->TabIndex = 10;
 			// 
 			// textBox4
 			// 
+			this->textBox4->BackColor = System::Drawing::Color::LightCyan;
 			this->textBox4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14, System::Drawing::FontStyle::Bold));
-			this->textBox4->Location = System::Drawing::Point(749, 414);
+			this->textBox4->Location = System::Drawing::Point(752, 414);
 			this->textBox4->Name = L"textBox4";
 			this->textBox4->Size = System::Drawing::Size(100, 39);
 			this->textBox4->TabIndex = 11;
 			// 
 			// textBox5
 			// 
+			this->textBox5->BackColor = System::Drawing::Color::LightCyan;
 			this->textBox5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14, System::Drawing::FontStyle::Bold));
-			this->textBox5->Location = System::Drawing::Point(883, 414);
+			this->textBox5->Location = System::Drawing::Point(886, 414);
 			this->textBox5->Name = L"textBox5";
 			this->textBox5->Size = System::Drawing::Size(100, 39);
 			this->textBox5->TabIndex = 12;
 			// 
 			// textBox6
 			// 
+			this->textBox6->BackColor = System::Drawing::Color::LightCyan;
 			this->textBox6->Font = (gcnew System::Drawing::Font(L"Arial Narrow", 14, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->textBox6->Location = System::Drawing::Point(332, 521);
+			this->textBox6->Location = System::Drawing::Point(335, 521);
 			this->textBox6->Name = L"textBox6";
 			this->textBox6->Size = System::Drawing::Size(100, 40);
 			this->textBox6->TabIndex = 13;
 			// 
 			// textBox7
 			// 
+			this->textBox7->BackColor = System::Drawing::Color::LightCyan;
 			this->textBox7->Font = (gcnew System::Drawing::Font(L"Arial Narrow", 14, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->textBox7->Location = System::Drawing::Point(475, 521);
+			this->textBox7->Location = System::Drawing::Point(478, 521);
 			this->textBox7->Name = L"textBox7";
 			this->textBox7->Size = System::Drawing::Size(100, 40);
 			this->textBox7->TabIndex = 14;
 			// 
 			// textBox8
 			// 
+			this->textBox8->BackColor = System::Drawing::Color::LightCyan;
 			this->textBox8->Font = (gcnew System::Drawing::Font(L"Arial Narrow", 14, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->textBox8->Location = System::Drawing::Point(609, 521);
+			this->textBox8->Location = System::Drawing::Point(612, 521);
 			this->textBox8->Name = L"textBox8";
 			this->textBox8->Size = System::Drawing::Size(100, 40);
 			this->textBox8->TabIndex = 15;
 			// 
 			// textBox9
 			// 
+			this->textBox9->BackColor = System::Drawing::Color::LightCyan;
 			this->textBox9->Font = (gcnew System::Drawing::Font(L"Arial Narrow", 14, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->textBox9->Location = System::Drawing::Point(746, 521);
+			this->textBox9->Location = System::Drawing::Point(749, 521);
 			this->textBox9->Name = L"textBox9";
 			this->textBox9->Size = System::Drawing::Size(100, 40);
 			this->textBox9->TabIndex = 16;
 			// 
 			// textBox10
 			// 
+			this->textBox10->BackColor = System::Drawing::Color::LightCyan;
 			this->textBox10->Font = (gcnew System::Drawing::Font(L"Arial Narrow", 14, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->textBox10->Location = System::Drawing::Point(880, 521);
+			this->textBox10->Location = System::Drawing::Point(883, 521);
 			this->textBox10->Name = L"textBox10";
 			this->textBox10->Size = System::Drawing::Size(100, 40);
 			this->textBox10->TabIndex = 17;
@@ -297,10 +311,10 @@ namespace TripOptimiser {
 			// label6
 			// 
 			this->label6->AutoSize = true;
-			this->label6->BackColor = System::Drawing::SystemColors::Control;
+			this->label6->BackColor = System::Drawing::SystemColors::HotTrack;
 			this->label6->Font = (gcnew System::Drawing::Font(L"Arial", 14, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label6->ForeColor = System::Drawing::Color::DimGray;
+			this->label6->ForeColor = System::Drawing::Color::LightGray;
 			this->label6->Location = System::Drawing::Point(338, 343);
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(94, 32);
@@ -310,10 +324,10 @@ namespace TripOptimiser {
 			// label7
 			// 
 			this->label7->AutoSize = true;
-			this->label7->BackColor = System::Drawing::SystemColors::Control;
+			this->label7->BackColor = System::Drawing::SystemColors::HotTrack;
 			this->label7->Font = (gcnew System::Drawing::Font(L"Arial", 14, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label7->ForeColor = System::Drawing::Color::DimGray;
+			this->label7->ForeColor = System::Drawing::Color::LightGray;
 			this->label7->Location = System::Drawing::Point(476, 343);
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(94, 32);
@@ -323,10 +337,10 @@ namespace TripOptimiser {
 			// label8
 			// 
 			this->label8->AutoSize = true;
-			this->label8->BackColor = System::Drawing::SystemColors::Control;
+			this->label8->BackColor = System::Drawing::SystemColors::HotTrack;
 			this->label8->Font = (gcnew System::Drawing::Font(L"Arial", 14, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label8->ForeColor = System::Drawing::Color::DimGray;
+			this->label8->ForeColor = System::Drawing::Color::LightGray;
 			this->label8->Location = System::Drawing::Point(618, 343);
 			this->label8->Name = L"label8";
 			this->label8->Size = System::Drawing::Size(94, 32);
@@ -336,10 +350,10 @@ namespace TripOptimiser {
 			// label9
 			// 
 			this->label9->AutoSize = true;
-			this->label9->BackColor = System::Drawing::SystemColors::Control;
+			this->label9->BackColor = System::Drawing::SystemColors::HotTrack;
 			this->label9->Font = (gcnew System::Drawing::Font(L"Arial", 14, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label9->ForeColor = System::Drawing::Color::DimGray;
+			this->label9->ForeColor = System::Drawing::Color::LightGray;
 			this->label9->Location = System::Drawing::Point(755, 343);
 			this->label9->Name = L"label9";
 			this->label9->Size = System::Drawing::Size(94, 32);
@@ -349,10 +363,10 @@ namespace TripOptimiser {
 			// label10
 			// 
 			this->label10->AutoSize = true;
-			this->label10->BackColor = System::Drawing::SystemColors::Control;
+			this->label10->BackColor = System::Drawing::SystemColors::HotTrack;
 			this->label10->Font = (gcnew System::Drawing::Font(L"Arial", 14, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label10->ForeColor = System::Drawing::Color::DimGray;
+			this->label10->ForeColor = System::Drawing::Color::LightGray;
 			this->label10->Location = System::Drawing::Point(889, 343);
 			this->label10->Name = L"label10";
 			this->label10->Size = System::Drawing::Size(94, 32);
@@ -363,7 +377,7 @@ namespace TripOptimiser {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(9, 20);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->BackColor = System::Drawing::SystemColors::ButtonFace;
+			this->BackColor = System::Drawing::SystemColors::MenuHighlight;
 			this->ClientSize = System::Drawing::Size(1060, 729);
 			this->Controls->Add(this->label10);
 			this->Controls->Add(this->label9);
