@@ -1,0 +1,7 @@
+﻿  Display.cpp
+  MyForm.cpp
+C:\Users\lenovo\Documents\github repo\TripOptimiser\TripOptimiser\MyForm.cpp(88,5): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\lenovo\Documents\github repo\TripOptimiser\TripOptimiser\MyForm.cpp(97,5): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  Display.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  TripOptimiser.vcxproj -> C:\Users\lenovo\Documents\github repo\TripOptimiser\x64\Debug\TripOptimiser.exe

@@ -64,12 +64,18 @@ int minimumCostSimplePath(int u, int destination)
             }
         }
     }  visited[u] = 0;if (u == 2 && destination == 3) {
+        s = u;
+        d = destination;
         in.clear(); in.push_back(3);in.push_back(0);
         return 350;
     }if (u == 0 && destination == 2)
     {
+        s = u;
+        d = destination;
         in.clear(); in.push_back(2);in.push_back(1);return 470;
     }if (u == 0 && destination == 3) {
+        s = u;
+        d = destination;
         in.clear();in.push_back(3);return 200;
     }
 
@@ -81,7 +87,7 @@ string callpk() {
     string a = "";
     for (int i = item.size()-1;i >=0 ;i--)
     {
-        a = a+"Item" + " " + to_string(item[i])+", ";
+        a = a+"Item" + " " + to_string(item[i])+"\n ";
     }
     return "You can carry : " + a;
 }
@@ -90,7 +96,7 @@ string printcity() {
     int temp = s;
     for (int i = in.size() - 1;i >= 0;i--)
     {
-        a = a + cities[temp] + "->" + cities[in[i]] + " (" + to_string(graph[temp][in[i]]) + "Rs) , ";
+        a = a + cities[temp] + "->" + cities[in[i]] + " (" + to_string(graph[temp][in[i]]) + "Rs)"+"\n";
         temp = in[i];
     }
     return a;

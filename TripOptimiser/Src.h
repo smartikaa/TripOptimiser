@@ -170,7 +170,7 @@ namespace TripOptimiser {
 			// 
 			this->button1->BackColor = System::Drawing::SystemColors::ActiveCaption;
 			this->button1->Font = (gcnew System::Drawing::Font(L"Arial", 12));
-			this->button1->Location = System::Drawing::Point(808, 630);
+			this->button1->Location = System::Drawing::Point(787, 605);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(199, 76);
 			this->button1->TabIndex = 4;
@@ -403,6 +403,9 @@ namespace TripOptimiser {
 			this->Controls->Add(this->label1);
 			this->Controls->Add(this->comboBox1);
 			this->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
+			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
+			this->MaximizeBox = false;
+			this->MinimizeBox = false;
 			this->Name = L"Src";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"Src";

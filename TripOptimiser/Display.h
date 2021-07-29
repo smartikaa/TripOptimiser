@@ -182,19 +182,20 @@ namespace TripOptimiser {
 			// 
 			// label10
 			// 
-			this->label10->Font = (gcnew System::Drawing::Font(L"Arial", 16, System::Drawing::FontStyle::Bold));
-			this->label10->Location = System::Drawing::Point(44, 364);
+			this->label10->Font = (gcnew System::Drawing::Font(L"Arial", 14, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label10->Location = System::Drawing::Point(45, 353);
 			this->label10->Name = L"label10";
-			this->label10->Size = System::Drawing::Size(632, 136);
+			this->label10->Size = System::Drawing::Size(632, 192);
 			this->label10->TabIndex = 9;
 			this->label10->Text = L"label10";
 			// 
 			// label11
 			// 
-			this->label11->Font = (gcnew System::Drawing::Font(L"Arial", 16, System::Drawing::FontStyle::Bold));
-			this->label11->Location = System::Drawing::Point(44, 500);
+			this->label11->Font = (gcnew System::Drawing::Font(L"Arial", 14, System::Drawing::FontStyle::Bold));
+			this->label11->Location = System::Drawing::Point(44, 556);
 			this->label11->Name = L"label11";
-			this->label11->Size = System::Drawing::Size(632, 136);
+			this->label11->Size = System::Drawing::Size(632, 271);
 			this->label11->TabIndex = 10;
 			this->label11->Text = L"label11";
 			this->label11->Click += gcnew System::EventHandler(this, &Display::label11_Click);
@@ -204,7 +205,7 @@ namespace TripOptimiser {
 			this->AutoScaleDimensions = System::Drawing::SizeF(9, 20);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::SystemColors::MenuHighlight;
-			this->ClientSize = System::Drawing::Size(911, 863);
+			this->ClientSize = System::Drawing::Size(911, 1003);
 			this->Controls->Add(this->label11);
 			this->Controls->Add(this->label10);
 			this->Controls->Add(this->label9);
@@ -216,6 +217,9 @@ namespace TripOptimiser {
 			this->Controls->Add(this->label3);
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->label1);
+			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
+			this->MaximizeBox = false;
+			this->MinimizeBox = false;
 			this->Name = L"Display";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"Display";
