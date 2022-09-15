@@ -65,7 +65,7 @@ int minimumCostSimplePath(int u, int destination)
         }
     }  
   }
-
+vis[u]=0;
     s = u;
     d = destination;
     return ans;
