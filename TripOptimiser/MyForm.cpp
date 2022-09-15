@@ -63,21 +63,8 @@ int minimumCostSimplePath(int u, int destination)
                 in.push_back(i);
             }
         }
-    }  visited[u] = 0;if (u == 2 && destination == 3) {
-        s = u;
-        d = destination;
-        in.clear(); in.push_back(3);in.push_back(0);
-        return 350;
-    }if (u == 0 && destination == 2)
-    {
-        s = u;
-        d = destination;
-        in.clear(); in.push_back(2);in.push_back(1);return 470;
-    }if (u == 0 && destination == 3) {
-        s = u;
-        d = destination;
-        in.clear();in.push_back(3);return 200;
-    }
+    }  
+  }
 
     s = u;
     d = destination;
